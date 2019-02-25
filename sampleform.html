@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+<head>
+    <meta charset="utf-8">
+    <title>Sample Form</title>
+    <style>
+    input{
+          display:block
+        }
+    input:focus {
+      background: yellow;
+    }
+    </style>
+</head>
+<body>
+    <form method="POST" action="https://formspree.io/janela@umich.edu">
+      <label for = "name"> Name:</label>
+      <input type="text" id= "name" name="name" value="Janel">
+      <label for= "name"> Email:</label>
+      <input type="text" id="email" name="email" placeholder="Your email">
+      <label for = "name"> DOB:</label>
+      <input type="date" id= "birth" name="birthdate">
+      <label for= "tel"> Tel:</label>
+      <input type="text" id="tel" name="tel" placeholder="Your number">
+      <label for= "color">  Color:</label>
+      <input type="text" id="color" name="color" placeholder="Enter text">
+      <input type="submit" value="click me">
+        </form>
+</body>
+</html>
